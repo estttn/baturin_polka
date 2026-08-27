@@ -1,0 +1,31 @@
+id: agency-light-shader
+page: landing
+kind: studio
+surface: light
+scope: site
+sections: 7
+motion: shader
+canon: site/
+summary: Светлый лендинг креативной студии. Канон — доделанный сайт, не черновой промпт.
+blocks:
+  - hero
+  - about
+  - cases
+  - services
+  - clients
+  - faq
+  - footer
+use_when:
+  - лендинг агентства или студии, светлый фон, один акцент
+  - нужен полный набор секций в том же языке, что и первый экран
+  - шейдер как материал hero, не как декор «по центру»
+do_not_use_when:
+  - задача — только 2–3 блока (это уже другой scope)
+  - корпоратив IT-услуг: не клонировать бренд и тексты
+  - тёмная SaaS-витрина с pricing
+stack:
+  - react-18
+  - vite
+  - tailwind-3.4
+  - shaders
+  - lucide-react

@@ -1,0 +1,19 @@
+version: 1
+etalons:
+  - id: agency-light-shader
+    path: etalons/landing/agency-light-shader
+    page: landing
+    kind: studio
+    surface: light
+    scope: site
+    sections: 7
+    motion: shader
+    summary: Светлый лендинг студии. Канон — доделанный сайт (hero…footer), не черновой промпт из трёх блоков.
+    use_when:
+      - лендинг агентства или студии
+      - светлый фон, мало визуального шума, шейдер в hero
+      - полный набор секций в одном языке
+    do_not_use_when:
+      - нужен короткий fragment на 2–3 блока
+      - IT-услуги как клон бренда Axion
+      - тёмная product/SaaS витрина
