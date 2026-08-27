@@ -1,0 +1,15 @@
+id: video-loop
+page: background
+kind: material
+surface: mixed
+scope: fragment
+motion: cinematic
+canon: catalog.yaml
+summary: Библиотека looping video-фонов. Канон — URL и постеры, не сами mp4.
+use_when:
+  - нужен живой hero/full-bleed фон, не шейдер
+  - тёмный tech, фигура, земля, частицы, светлый editorial
+do_not_use_when:
+  - фон должен быть GPU-шейдером (брать agency-light-shader)
+  - нужен фотосток людей/офиса
+  - текст должен лежать на пёстром центре (см. overlay в catalog)

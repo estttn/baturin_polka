@@ -1,0 +1,156 @@
+version: 1
+source_order: as_received
+clips:
+  - id: robot-flower-spotlight
+    n: 1
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260411_104032_69319010-2458-492b-b04d-b40a5dfa4482.mp4
+    format: mp4
+    duration_s: 12
+    surface: dark
+    motif: figure
+    overlay: top-and-sides
+    poster: posters/01.jpg
+    note: Робот в круге цветов, верх кадра пустой чёрный. Premium / sci-fi hero.
+
+  - id: hud-starfield
+    n: 2
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260423_084718_72a17915-4964-4059-afcd-22d59399b72e.mp4
+    format: mp4
+    duration_s: 10
+    surface: dark
+    motif: hud
+    overlay: center-safe
+    poster: posters/02.jpg
+    note: Звёзды, мягкие teal-glow, угловые скобки HUD. SaaS / dev / web3 hero.
+
+  - id: energy-bands
+    n: 3
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260629_021419_291eb2af-5ed4-45a0-a1d6-3ef58f4bca0b.mp4
+    format: mp4
+    duration_s: 10
+    surface: dark
+    motif: abstract
+    overlay: edges
+    poster: posters/03.jpg
+    note: Горизонтальные синие «линзы» энергии, симметрия. Не класть текст на белое ядро.
+
+  - id: earth-limb
+    n: 4
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260613_180732_a54afbf6-b30d-470e-861f-669871f09f67.mp4
+    format: mp4
+    duration_s: 10
+    surface: dark
+    motif: planet
+    overlay: top
+    poster: posters/04.jpg
+    note: Дуга Земли, рассвет с орбиты. Текст в чёрный космос сверху.
+
+  - id: dot-ripple
+    n: 5
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_135039_b04d00db-6ee2-4e2a-a7f5-b2dfd3d24fd2.mp4
+    format: mp4
+    duration_s: 10
+    surface: dark
+    motif: particles
+    overlay: corners
+    poster: posters/05.jpg
+    note: Поле белых сфер, рябь. Data / generative. Текст не на гребень волны.
+
+  - id: particle-butterfly
+    n: 6
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260506_031045_0e1165dd-ab48-46e3-ad3d-5fe77f217647.mp4
+    format: mp4
+    duration_s: 12
+    surface: dark
+    motif: particles
+    overlay: edges
+    poster: posters/06.jpg
+    note: Бабочка-halftone на цветке. Арт / brand, не корпоратив IT.
+
+  - id: glitch-orb
+    n: 7
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260723_145606_ab143199-b593-4941-bb1b-9afca215416b.mp4
+    format: mp4
+    duration_s: 10
+    surface: dark
+    motif: abstract
+    overlay: edges
+    poster: posters/07.jpg
+    note: Шар с хроматической аберрацией и орбитами. Агрессивный tech. Центр шумный.
+
+  - id: globe-orbit
+    n: 8
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_051048_5ef213b5-26db-4da8-b604-7ef823760b6b.mp4
+    format: mp4
+    duration_s: 10
+    surface: dark
+    motif: planet
+    overlay: top
+    poster: posters/08.jpg
+    note: Точечный глобус, стрелки по орбите. Сети / логистика / cloud. Текст сверху.
+
+  - id: floating-rocks
+    n: 9
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_3GJaYKPxdnQG0Q9O26lu6DPmcHu/hf_20260805_192612_e00017a8-56b0-4957-935b-9ffd87663994.mp4
+    format: mp4
+    duration_s: 8
+    surface: light
+    motif: matter
+    overlay: gaps
+    poster: posters/09.jpg
+    note: Тёмные камни на светло-сером. Единственный светлый «сырой материал». Текст в просветы.
+
+  - id: chrome-figure
+    n: 10
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260601_110537_3a579fa0-7bbc-4d94-9d25-0e816c7840f5.mp4
+    format: mp4
+    duration_s: 4
+    surface: light
+    motif: figure
+    overlay: left
+    poster: posters/10.jpg
+    note: Хромированный торс справа, белое поле слева. Короткий луп. Fashion / product.
+
+  - id: sakura-lake
+    n: 11
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260306_115329_5e00c9c5-4d69-49b7-94c3-9c31c60bb644.mp4
+    format: mp4
+    duration_s: 10
+    surface: light
+    motif: landscape
+    overlay: sky
+    poster: posters/11.jpg
+    note: Сакура, озеро, облака. Сюжетный кадр. Текст только в небо, не на цветы.
+
+  - id: contour-mountains
+    n: 12
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_075824_7c8a2ef3-826c-43ca-81a1-162429faa306.mp4
+    format: mp4
+    duration_s: 10
+    surface: light
+    motif: landscape
+    overlay: top
+    poster: posters/12.jpg
+    note: Оранжево-синие контурные пики, светлое небо. Editorial / luxury. Текст сверху.
+
+  - id: mux-hls-a
+    n: 13
+    url: https://stream.mux.com/T6oQJQ02cQ6N01TR6iHwZkKFkbepS34dkkIc9iukgy400g.m3u8
+    format: hls
+    duration_s: null
+    surface: unknown
+    motif: unknown
+    overlay: unknown
+    poster: null
+    note: HLS Mux. Постер не снят (сегмент CDN не открылся с этой среды). URL сохранён.
+
+  - id: liquid-ribbon
+    n: 14
+    url: https://stream.mux.com/Jwr2RhmsNrd6GEspBNgm02vJsRZAGlaoQIh4AucGdASw.m3u8
+    format: hls
+    duration_s: 6
+    surface: dark
+    motif: abstract
+    overlay: top-and-bottom
+    poster: posters/14.jpg
+    note: Жидкая металлическая лента, иридисценция. HLS. Luxury / dark product.

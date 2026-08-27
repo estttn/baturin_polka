@@ -17,3 +17,19 @@ etalons:
       - нужен короткий fragment на 2–3 блока
       - IT-услуги как клон бренда Axion
       - тёмная product/SaaS витрина
+
+  - id: video-loop
+    path: etalons/background/video-loop
+    page: background
+    kind: material
+    surface: mixed
+    scope: fragment
+    sections: 0
+    motion: cinematic
+    summary: 14 looping video-фонов. Канон — catalog.yaml и постеры, не mp4 в git.
+    use_when:
+      - живой hero-фон вместо шейдера
+      - тёмный tech, фигура, планета, светлый editorial
+    do_not_use_when:
+      - нужен GPU-шейдер как в agency-light-shader
+      - нужен сток офиса / улыбающаяся команда
