@@ -14,6 +14,7 @@ etalons/<page>/<id>/
   meta.yaml                        класс, когда брать
   USAGE.md                         как применять, что не клонировать
   site/                            канон страницы (исходники, без node_modules)
+  PROMPT.md                        канон hero, пока нет сборки
   catalog.yaml + posters/          канон материала (фоны): URL, не mp4 в git
 ```
 

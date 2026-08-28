@@ -33,3 +33,83 @@ etalons:
     do_not_use_when:
       - нужен GPU-шейдер как в agency-light-shader
       - нужен сток офиса / улыбающаяся команда
+
+  - id: stream-bottom-glass
+    path: etalons/hero/stream-bottom-glass
+    page: hero
+    kind: streaming
+    surface: dark
+    scope: fragment
+    sections: 1
+    motion: cinematic
+    summary: Стриминг-hero. Видео на весь экран, blur только снизу, контент снизу, liquid-glass.
+    use_when:
+      - кино / сериалы / Watch Now
+      - метаданные и prev/next
+    do_not_use_when:
+      - полный многосекционный лендинг
+      - центрированный serif-манифест
+
+  - id: portfolio-video-switcher
+    path: etalons/hero/portfolio-video-switcher
+    page: hero
+    kind: studio
+    surface: dark
+    scope: fragment
+    sections: 1
+    motion: cinematic
+    summary: Портфолио. Три ролика с crossfade, numbered nav, свитчер, гигантское имя.
+    use_when:
+      - личное или студийное портфолио на одном экране
+      - смена видео кнопками
+    do_not_use_when:
+      - один клип и центр-слоган
+      - стриминг с IMDB
+
+  - id: center-serif-glass
+    path: etalons/hero/center-serif-glass
+    page: hero
+    kind: studio
+    surface: dark
+    scope: fragment
+    sections: 1
+    motion: cinematic
+    summary: Центр, Instrument Serif, liquid-glass CTA. Дубль промпта в пачке схлопнут.
+    use_when:
+      - поэтический / cinematic манифест
+      - одна стеклянная кнопка по центру
+    do_not_use_when:
+      - контент должен быть снизу как у стриминга
+      - три видео-свитчера
+
+  - id: studio-left-solid
+    path: etalons/hero/studio-left-solid
+    page: hero
+    kind: studio
+    surface: dark
+    scope: fragment
+    sections: 1
+    motion: cinematic
+    summary: Студия. Geist, левая колонка, белые solid-кнопки, полноэкранное меню.
+    use_when:
+      - студия без liquid-glass
+      - бейдж + ломаный h1 сверху, CTA снизу
+    do_not_use_when:
+      - стеклянные пилюли
+      - wellness app-nav
+
+  - id: wellness-pill-nav
+    path: etalons/hero/wellness-pill-nav
+    page: hero
+    kind: wellness
+    surface: dark
+    scope: fragment
+    sections: 1
+    motion: cinematic
+    summary: Wellness. Glass-пилюля по центру навбара, контент низ-лево.
+    use_when:
+      - продукт самочувствия / routine
+      - Log in + Begin Now
+    do_not_use_when:
+      - портфолио с гигантским именем
+      - стриминг с рейтингом

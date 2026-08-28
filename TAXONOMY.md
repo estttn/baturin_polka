@@ -6,8 +6,8 @@
 
 | Ось | Вопрос | Примеры |
 |---|---|---|
-| `page` | Поверхность | `landing`, `background`, `services`, `case`, `pitch`, `app` |
-| `kind` | Бизнес | `studio`, `it-services`, `saas`, `corporate`, `shop` |
+| `page` | Поверхность | `landing`, `hero`, `background`, `services`, `case`, `pitch`, `app` |
+| `kind` | Бизнес | `studio`, `streaming`, `wellness`, `it-services`, `saas`, `corporate`, `shop` |
 | `surface` | Свет | `light`, `dark` |
 | `scope` | Масштаб | `fragment` (2–4 блока), `site` (полный набор секций), `system` |
 | `sections` | Смысловые блоки в каноне | число. Считать по готовому сайту, не по черновику |
@@ -15,7 +15,8 @@
 
 ## Правила
 
-- Канон страницы — `site/`. Канон фона/материала — `catalog.yaml` + постеры, не сырые видео в git.
+- Канон страницы — `site/`. Канон hero — `PROMPT.md` (пока нет сборки). Канон фона — `catalog.yaml` + постеры.
+- `page: hero` — один viewport. Не дорисовывать услуги/FAQ.
 - Черновой промпт не важнее готовой сборки.
 - `kind: studio` ≠ `kind: it-services`. Сетку и CTA можно взять, оффер и тон — нет.
 - Несколько эталонов мешать только явно: «каркас из A, движение из B».

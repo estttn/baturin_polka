@@ -1,0 +1,24 @@
+id: center-serif-glass
+page: hero
+kind: studio
+surface: dark
+scope: fragment
+sections: 1
+motion: cinematic
+canon: PROMPT.md
+summary: Центр экрана, Instrument Serif + Inter, liquid-glass CTA, без затемняющих блобов. Видео — вся глубина.
+use_when:
+  - манифест / поэтический hero
+  - центрированная ось, serif-заголовок с приглушённым em
+  - одна кнопка Begin Journey в стекле
+do_not_use_when:
+  - контент должен сидеть снизу как у стриминга
+  - нужен свитчер трёх роликов
+note: В исходной пачке этот промпт был дважды — храним один канон.
+stack:
+  - react
+  - vite
+  - tailwind
+  - typescript
+  - instrument-serif
+  - inter

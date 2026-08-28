@@ -1,0 +1,23 @@
+id: wellness-pill-nav
+page: hero
+kind: wellness
+surface: dark
+scope: fragment
+sections: 1
+motion: cinematic
+canon: PROMPT.md
+summary: Wellness/app. Geist, liquid-glass пилюля навигации по центру, контент низ-лево, Log in + Begin Now.
+use_when:
+  - продукт самочувствия / routine app
+  - центральная glass-пилюля nav + две CTA справа
+  - заголовок снизу слева, без киношного serif
+do_not_use_when:
+  - стриминг с рейтингом
+  - портфолио с гигантским именем
+stack:
+  - react
+  - typescript
+  - vite
+  - tailwind
+  - lucide-react
+  - geist

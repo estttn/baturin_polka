@@ -1,0 +1,22 @@
+id: stream-bottom-glass
+page: hero
+kind: streaming
+surface: dark
+scope: fragment
+sections: 1
+motion: cinematic
+canon: PROMPT.md
+summary: Один экран. Видео на весь вьюпорт, blur только снизу (маска, без тёмного градиента). Контент снизу, liquid-glass, stagger blur-fade-up.
+use_when:
+  - стриминг / кино / сериал
+  - метаданные (рейтинг, тайминг) и Watch Now
+  - стекло на кнопках, не сплошная белая плашка как единственный язык
+do_not_use_when:
+  - нужен полный сайт с секциями
+  - светлый шейдер как agency-light-shader
+  - центрированный serif-манифест (брать center-serif-glass)
+stack:
+  - react
+  - tailwind
+  - lucide-react
+  - inter

@@ -1,0 +1,21 @@
+id: portfolio-video-switcher
+page: hero
+kind: studio
+surface: dark
+scope: fragment
+sections: 1
+motion: cinematic
+canon: PROMPT.md
+summary: Портфолио. Три видео с crossfade 1200ms, numbered nav, свитчер 01 WATER WAVE / GRIDWAVE / LIGHT TUNNEL, гигантское имя, CUP-часы.
+use_when:
+  - личное/студийное портфолио на одном экране
+  - смена ролика кнопками, не один клип
+  - крупная типографика имени + Available for work
+do_not_use_when:
+  - стриминг с IMDB (stream-bottom-glass)
+  - один статичный ролик и центрированный слоган (center-serif-glass)
+stack:
+  - react
+  - vite
+  - tailwind
+  - figtree

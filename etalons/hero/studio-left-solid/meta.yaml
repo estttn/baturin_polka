@@ -1,0 +1,21 @@
+id: studio-left-solid
+page: hero
+kind: studio
+surface: dark
+scope: fragment
+sections: 1
+motion: cinematic
+canon: PROMPT.md
+summary: Студия. Geist, колонка слева (бейдж → h1 сверху, абзац+CTA снизу), белые solid-кнопки, полноэкранное мобильное меню.
+use_when:
+  - студия / портфолио без liquid-glass
+  - раскладка верх+низ внутри hero, не центр
+  - оверлей-меню на весь экран с spring easing
+do_not_use_when:
+  - нужны стеклянные пилюли (wellness-pill-nav / stream-bottom-glass)
+  - три видео-свитчера
+stack:
+  - react
+  - tailwind
+  - lucide-react
+  - geist
