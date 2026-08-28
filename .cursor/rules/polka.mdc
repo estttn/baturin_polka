@@ -12,5 +12,8 @@ alwaysApply: true
 - Канон страницы — `site/`. Канон hero без сборки — `PROMPT.md`. Канон фонов — `catalog.yaml` + постеры. Mp4 в git не класть.
 - `page: hero` ≠ полный лендинг. Не дорисовывать секции.
 - Перед дизайном: TAXONOMY.md → etalons/index.yaml → USAGE.md выбранного id.
+- Образы Motionsites: `sources/motionsites/`. Пользователь пишет **название с доски** (`review.html`). Агент ищет его в `library.json` (title / aliases), читает `prompt`, смотрит `img` или `poster`, собирает каркас. Бренд и оффер не копировать.
+- `etalons/` — отобранные каноны Бюро. Вся библиотека Motionsites живёт в `sources/motionsites/`, не 600 папок в etalons.
+- Mp4 и тяжёлые GIF-постеры в git не класть (`posters/`, `_upstream/` в .gitignore).
 - Копировать каркас и ритм. Не копировать бренд, оффер и чужие кейсы.
 - Не коммитить node_modules, dist, .env, бинарный мусор.

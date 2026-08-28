@@ -1,0 +1,140 @@
+version: 1
+upstream: https://github.com/nomaan5541/motionsites-prompt-collection
+gallery: https://motionsitesai-main.vercel.app/
+
+# status:
+#   on_polka — класс закрыт, карьер не нужен
+#   gap      — сигнатура нужна, эталона ещё нет
+#   skip     — шлак, пустышка или бренд, не класть
+
+clusters:
+  - id: center-serif-glass
+    status: on_polka
+    polka: etalons/hero/center-serif-glass
+    signature: центр, Instrument Serif, liquid-glass, видео на всю глубину, без блобов
+    sources:
+      - prompts/Velorah.md
+      - prompts/Velorah_Focus.md
+
+  - id: wellness-pill-nav
+    status: on_polka
+    polka: etalons/hero/wellness-pill-nav
+    signature: wellness, glass-пилюля nav по центру, контент низ-лево
+    sources:
+      - prompts/Equilibrium.md
+      - prompts/wellness-hero.md
+      - prompts/wellbeing-os.md
+
+  - id: studio-left-solid
+    status: on_polka
+    polka: etalons/hero/studio-left-solid
+    signature: студия, колонка слева, solid CTA, overlay-меню
+    sources: []
+
+  - id: stream-bottom-glass
+    status: on_polka
+    polka: etalons/hero/stream-bottom-glass
+    signature: стриминг, контент снизу, blur-маска, liquid-glass
+    sources: []
+
+  - id: portfolio-video-switcher
+    status: on_polka
+    polka: etalons/hero/portfolio-video-switcher
+    signature: три ролика, numbered nav, гигантское имя
+    sources:
+      - prompts/Viktor Portfolio.md
+      - prompts/Bold Portfolio Hero.md
+
+  - id: agency-light-shader
+    status: on_polka
+    polka: etalons/landing/agency-light-shader
+    signature: светлый лендинг студии, полный сайт, шейдер
+    sources:
+      - prompts/axion-about.md
+
+  - id: dark-center-pill-solid
+    status: gap
+    signature: тёмный hero, центр, pill-nav без стекла, белая solid CTA, Inter
+    note: Velorix IIC. Не путать с center-serif-glass (там serif + liquid-glass).
+    sources:
+      - motionsites-prompts/437-velorix-iic/working-prompt.md
+      - prompts/Velorix_IIC.md
+
+  - id: light-product-bottom-left
+    status: gap
+    signature: светлый product-hero, контент низ-лево, pill-nav, без cinematic dark
+    note: Prosthetics Hero.
+    sources:
+      - prompts/Prosthetics_Hero.md
+
+  - id: dark-center-gradient-hls
+    status: gap
+    signature: чёрный #000, HLS Mux, serif pre + giant sans gradient, синяя стрелка в пилюле, центр
+    note: Промпт «Build Faster» / AI website builder. В каталоге Motionsites по имени нет — канон с полки брифа, не из git.
+    sources: []
+
+  - id: light-bottom-fade-video
+    status: gap
+    signature: светлый экран, видео, контент прижат вниз, белый fade-up, Inter, без Tailwind
+    note: NeuralKinetics / One Card. В каталоге Motionsites по имени нет.
+    sources: []
+
+  - id: saas-float-glass-nav
+    status: gap
+    signature: тёмный SaaS, плавающая glass-nav по центру, badge, пара CTA
+    sources:
+      - prompts/Apex_SaaS.md
+      - prompts/apex-saas-hero.md
+      - prompts/Datacore SaaS Hero.md
+
+  - id: waitlist-center
+    status: gap
+    signature: один экран waitlist, центр, мало хрома
+    sources:
+      - prompts/Waitlist Hero.md
+      - prompts/No_Code_Waitlist.md
+
+  - id: section-services
+    status: gap
+    page: services
+    signature: блок услуг — не три иконки. Каскад / горизонталь / список
+    sources:
+      - prompts/Services_-_Cascade.md
+      - prompts/Services_-_Horizontal.md
+      - prompts/agency-services.md
+
+  - id: section-faq
+    status: gap
+    page: faq
+    signature: FAQ аккордеон, тёмный или светлый
+    sources:
+      - prompts/FAQ_–_Dark_Accordion.md
+      - prompts/FAQ_CTA.md
+
+  - id: section-footer
+    status: gap
+    page: footer
+    signature: футер как отдельный язык, не дефолтная сетка из 4 колонок
+    sources:
+      - prompts/Footer_-_Zenith.md
+      - prompts/stark-minimal-footer.md
+      - prompts/Vize_Footer.md
+
+  - id: section-pricing
+    status: gap
+    page: pricing
+    signature: прайсинг не из трёх равных карточек без причины
+    sources:
+      - prompts/Pricing_-_Stacked.md
+      - prompts/Pricing_-_Brutalist.md
+      - prompts/SaaS_Pricing_Flow.md
+
+  - id: skip-slop
+    status: skip
+    signature: glow/neon/aurora, сток-бренд, пустышка, дубль hero того же лендинга
+    sources:
+      - prompts/Book_Hero.md
+      - prompts/Nike_Premium_Landing.md
+      - prompts/Hublot_Watches.md
+      - prompts/Glow_Features.md
+      - prompts/Elevate.md

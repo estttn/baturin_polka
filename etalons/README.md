@@ -4,6 +4,7 @@
 
 | id | page | kind | scope | sections | Когда брать |
 |---|---|---|---|---|---|
+| [ai-automation](./landing/ai-automation/) | landing | it-services | site | 3 | AI-агентство, video-фон, серый hero, 3 video-карточки |
 | [agency-light-shader](./landing/agency-light-shader/) | landing | studio | site | 7 | Светлый лендинг студии, доделанный сайт |
 | [video-loop](./background/video-loop/) | background | material | fragment | 14 clips | Looping video-фоны по URL + постеры |
 | [stream-bottom-glass](./hero/stream-bottom-glass/) | hero | streaming | fragment | 1 | Стриминг, контент снизу, blur-маска |

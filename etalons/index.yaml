@@ -1,5 +1,23 @@
 version: 1
 etalons:
+  - id: ai-automation
+    path: etalons/landing/ai-automation
+    page: landing
+    kind: it-services
+    surface: light
+    scope: site
+    sections: 3
+    motion: cinematic
+    summary: AI-агентство COGNITRA. Фиксированное video, серый hero, statement на видео, services с 3 video-карточками.
+    use_when:
+      - AI automation / agency landing с video-фоном
+      - светло-серый (#C5C5C5) + uppercase типографика
+      - три оффера в video-карточках
+    do_not_use_when:
+      - нужен только hero (есть отдельный AI Automation Hero)
+      - бриф запрещает autoplay video
+      - короткий outreach без video
+
   - id: agency-light-shader
     path: etalons/landing/agency-light-shader
     page: landing

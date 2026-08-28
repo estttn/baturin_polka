@@ -1,0 +1,27 @@
+id: ai-automation
+page: landing
+kind: it-services
+surface: light
+scope: site
+sections: 3
+motion: cinematic
+canon: site/
+source: sources/motionsites/_upstream/prompts/AI_Automation.md
+summary: Лендинг AI-агентства COGNITRA. Фиксированное video, серый hero-overlay, statement на видео, services с 3 video-карточками.
+blocks:
+  - hero
+  - statement
+  - services
+use_when:
+  - AI automation / agency landing с video-фоном
+  - светло-серый (#C5C5C5) + тёмный текст, uppercase типографика
+  - три оффера в video-карточках
+do_not_use_when:
+  - нужен только hero (есть отдельный AI Automation Hero)
+  - бриф запрещает autoplay video / LCP-тяжёлый фон
+  - короткий outreach без video
+stack:
+  - react-18
+  - vite
+  - tailwind-3.4
+  - framer-motion

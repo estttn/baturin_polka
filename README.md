@@ -10,6 +10,8 @@
 etalons/index.yaml                 машина: полный список
 etalons/README.md                  человек: таблица
 TAXONOMY.md                        оси классификации
+sources/motionsites/review.html    полный визуальный индекс карьера Motionsites
+sources/motionsites/clusters.yaml  сигнатуры и ссылки, не 470 копий промптов
 etalons/<page>/<id>/
   meta.yaml                        класс, когда брать
   USAGE.md                         как применять, что не клонировать
